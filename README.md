@@ -1,10 +1,10 @@
-# SISC-GPT
+# SIS-CGPT
 
 Sistema de Orquestração de Pipelines ETL para a Coordenação Geral de Populações Tradicionais (CGPT).
 
 ## 📖 Visão Geral
 
-O **SISC-GPT** é uma plataforma integrada que combina **Apache Airflow**, **dbt Core** e uma **API REST** para orquestrar, transformar e gerenciar dados organizacionais, possibilitando a criação de dashboards com os principais indicadores da coordenação.
+O **SIS-CGPT** é uma plataforma integrada que combina **Apache Airflow**, **dbt Core** e uma **API REST** para orquestrar, transformar e gerenciar dados organizacionais, possibilitando a criação de dashboards com os principais indicadores da coordenação.
 
 ## 🎯 Objetivos
 
@@ -282,7 +282,7 @@ Este projeto está sob licença interna da CGPT.
 
 ## 👥 Equipe
 
-Desenvolvido para a **Coordenação Geral de Populações Tradicionais (CGPT)**.
+Desenvolvido pela **COBEM** para a **Coordenação Geral de Populações Tradicionais (CGPT)**.
 
 ---
 
