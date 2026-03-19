@@ -65,7 +65,7 @@ siscgpt/
 | PostgreSQL | 17 |
 | Docker | Docker Compose |
 
-## � Comandos Úteis
+## 💻 Comandos Úteis
 
 ```bash
 # Ver logs
