@@ -62,7 +62,7 @@ siscgpt/
 | Airflow | 2.x |
 | dbt Core | PostgreSQL adapter |
 | FastAPI | Uvicorn |
-| PostgreSQL | 15 |
+| PostgreSQL | 17 |
 | Docker | Docker Compose |
 
 ## � Comandos Úteis
