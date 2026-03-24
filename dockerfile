@@ -11,7 +11,7 @@ RUN pip install poetry
 WORKDIR /src
 
 # Copia apenas arquivos de dependência para aproveitar cache do Docker
-COPY pyproject.toml poetry.lock /src/
+COPY pyproject.toml poetry.lock README.md /src/
 
 # Instala as dependências do projeto
 RUN poetry install
