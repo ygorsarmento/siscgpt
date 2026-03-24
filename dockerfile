@@ -13,8 +13,8 @@ WORKDIR /src
 # Copia apenas arquivos de dependência para aproveitar cache do Docker
 COPY pyproject.toml poetry.lock README.md /src/
 
-# Instala as dependências do projeto
-RUN poetry install
+# Instala apenas as dependências (não o projeto em si)
+RUN poetry install --no-root
 
 # Copia o restante dos arquivos do projeto
 COPY . /src
