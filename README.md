@@ -37,10 +37,10 @@ docker-compose ps
 
 | Serviço | URL | Credenciais |
 |---------|-----|-------------|
-| Airflow | `http://localhost:8080` | admin / admin |
+| Airflow | `http://localhost:8080` |
 | API | `http://localhost:8000` | - |
-| API Docs | `http://localhost:8000/docs` | - |
-| PostgreSQL | `localhost:5432` | postgres / postgres |
+| API Docs | `http://localhost:8000/docs` |
+| PostgreSQL | `localhost:5432` | 
 
 ## 📁 Estrutura
 
