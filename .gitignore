@@ -214,6 +214,7 @@ settings.local.*
 # IDEs (segurança)
 .vscode/settings.json
 .idea/workspace.xml
+.qwen/
 .qwenignore
 
 # Temporários
