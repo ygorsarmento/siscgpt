@@ -1,5 +1,5 @@
-# Imagem base Python 3.13
-FROM python:3.13
+# Imagem base Python 3.12
+FROM python:3.12
 
 # Define variável de ambiente para não criar virtualenv no container
 ENV POETRY_VIRTUALENVS_CREATE=false
