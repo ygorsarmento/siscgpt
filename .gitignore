@@ -1,5 +1,9 @@
-# Created by https://www.toptal.com/developers/gitignore/api/python
-# Edit at https://www.toptal.com/developers/gitignore?templates=python
+# ===========================================================
+# SIS-CGPT - Git Ignore
+# ===========================================================
+# Gerado a partir de: https://www.toptal.com/developers/gitignore/api/python
+# Editado para segurança do projeto
+# ===========================================================
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
@@ -174,3 +178,53 @@ poetry.toml
 pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/python
+
+# ===========================================
+# Proteções Adicionais - Segurança
+# ===========================================
+
+# Credenciais e segredos
+*.pem
+*.key
+*.crt
+secrets/
+credentials/
+service_account*.json
+
+# Dados sensíveis
+data/raw/
+data/processed/
+*.csv
+*.xlsx
+*.parquet
+uploads/
+exports/
+
+# Logs e debug
+logs/
+*.log
+debug/
+
+# Configurações locais sensíveis
+.env.local
+.env.*.local
+config.local.*
+settings.local.*
+
+# IDEs (segurança)
+.vscode/settings.json
+.idea/workspace.xml
+.qwenignore
+
+# Temporários
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+*~
+
+# Banco de dados (além do Django)
+*.db
+*.sqlite
+dump*.sql
