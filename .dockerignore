@@ -1,1 +1,101 @@
-.venv
+# ===========================================================
+# SIS-CGPT - Docker Ignore
+# ===========================================================
+
+# ------------------------------------------
+# Git e Versionamento
+# ------------------------------------------
+.git/
+.gitignore
+.gitattributes
+
+# ------------------------------------------
+# Ambiente e Segredos (NUNCA incluir no build)
+# ------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+secrets/
+credentials/
+
+# ------------------------------------------
+# Python / Poetry
+# ------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.poetry/
+poetry.toml
+
+# ------------------------------------------
+# IDEs e Editores
+# ------------------------------------------
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ------------------------------------------
+# Logs e Temporários
+# ------------------------------------------
+logs/
+*.log
+tmp/
+temp/
+*.tmp
+
+# ------------------------------------------
+# Dados e Bancos (evitar dados sensíveis)
+# ------------------------------------------
+*.db
+*.sqlite
+*.csv
+*.xlsx
+data/raw/
+data/processed/
+uploads/
+exports/
+
+# ------------------------------------------
+# Documentação (opcional - reduz tamanho)
+# ------------------------------------------
+docs/
+*.md
+!README.md
+LICENSE
+
+# ------------------------------------------
+# Testes e Coverage
+# ------------------------------------------
+tests/
+coverage/
+htmlcov/
+.tox/
+.nox/
+.coverage
+*.cover
+
+# ------------------------------------------
+# Build e Distribuição
+# ------------------------------------------
+build/
+dist/
+*.egg
+wheels/
+.qwen/
+.qwenignore
