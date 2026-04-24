@@ -1,4 +1,7 @@
+# Sistema de Gestão de Dados da CGPT
 # SISCGPT
+
+> 🔓 **Projeto Open Source** desenvolvido pela **COBEM**
 
 Plataforma integrada que combina **Apache Airflow**, **dbt Core** e **API FastAPI** para orquestrar, transformar e gerenciar dados organizacionais, possibilitando a criação de dashboards com os principais indicadores da coordenação.
 
